@@ -1,0 +1,289 @@
+.heroImage {
+  background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-dog-video-lead-1590597482.jpg');
+  top: 0px;
+  background-size: cover;
+  height: 420px;
+  background-position-y: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.heroText {
+  font-size: 60px;
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 5%;
+}
+
+.heroImage button {
+  position: absolute; 
+  padding: 10px 20px;
+  right: 10%;
+  top: 300px;
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: green;
+  box-shadow: 2px 2px;
+  border: none;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 0px;
+}
+
+.mainButton {
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: green;
+  box-shadow: 2px 2px black;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  max-width: 300px;
+  
+}
+
+#likeButton:disabled {
+  background-color: rgb(78, 78, 78);
+}
+
+.mainButton a {
+  color: white;
+  text-decoration: none;
+}
+
+.heroImage button:hover {
+background-color: rgb(56, 146, 56);
+}
+
+.heroImage button a {
+  text-decoration: none;
+  color: white;
+}
+
+.viewLinkBtn {
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  background-color: green;
+  padding: 10px 20px;
+  border-radius: 4px;
+  width: 25%;
+}
+
+.viewLinkBtn a {
+  text-decoration: none;
+  color: white;
+}
+
+.viewLinkBtn:hover {
+  opacity: 0.7;
+  }
+
+.heroImage a {
+  text-decoration: none;
+  color: white;
+}
+
+.mainContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.formContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+label {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.listContainer {
+  width: 100%;
+  position: relative;
+  background-color: #e4e4e4;
+  padding: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 10px;
+  text-align: center;
+  border-radius: 4px;
+  justify-content: space-evenly;
+}
+
+.listContainerHome {
+  width: 100%;
+  position: relative;
+  background-color: #e4e4e4;
+  padding: 10px 20px;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 10px;
+  text-align: left;
+  border-radius: 4px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.viewLinkButton a {
+  text-decoration: none; 
+  color: white
+}
+
+.petsBackground {
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.petListContainer {
+  margin-top: 40px;
+}
+
+.petImage {
+  width: 100%;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4px;
+}
+
+.editPageImg {
+  width: 100%;
+}
+
+.listStyles {
+  margin: 5px 0;
+  width: 20%;
+}
+
+.listStylesHome {
+  margin: 5px 0;
+  width: 10%;
+  text-align: center;
+}
+
+/* .listStyles:last-of-type {
+  margin: 0 0 20px 0;
+} */
+
+.errorMessage {
+  font-size: 12px;
+  color: red;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+
+.listName {
+  margin: 5px;
+  font-size: 30px;
+  color: green;
+}
+
+
+.onePetsBackground {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+}
+
+.onePetImageContainer {
+  width: 70%;
+  margin-right: 30px;
+}
+
+.onePetInfo {
+  width: 25%;
+}
+
+.onePetImage {
+ width: 100%;
+}
+
+.editLink {
+  margin: 0px 0 20px;
+  width: 100%;
+}
+
+.homeLink {
+  margin: 0px 0 20px;
+  text-align: right;
+  width: 100%;
+}
+
+.singlePetHeader {
+  margin: 0px 0 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.singlePetHeader h2 {
+  width: 100%;
+}
+
+.likesBox {
+  width: 90%;
+  background-color: #e4e4e4;
+  border-radius: 4px;
+  padding: 11px 20px 0 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.petsRow {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+select, textarea, input {
+  padding: 10px;
+  font-size: 16px;
+  /* position: absolute; */
+  /* left: 230px; */
+  /* margin: 20px 20px; */
+}
+
+.addButtonRow {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.addButtonRow p {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.homeEditLink {
+  color: black;
+  width: 10%;
+  padding-left: 20px;
+}
+
+.nameLink {
+ text-decoration: none;
+ width: 18%;
+
+}
+
+.petImageLink {
+  width: 20%;
+}
+
+.mainButton.adopt {
+  background-color: red;
+}
